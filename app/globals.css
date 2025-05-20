@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/*variables*/
+@theme {
+  --color-primary:       #D5EFF280;
+  --color-secondary-500: #456E73;
+  --color-secondary-200: #78BFB2;
+  --color-accent:        #78BFB2;
+  
+  --color-primary-dark:  #141826;
+  --color-secondary-dark:#252C40;
+  --color-tertiary-dark: #586A8C;
+  --color-accent-dark:   #80DDF2;
+  --color-text-dark:     #DCDCDC;
+}
+
+
+
+  .great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+/*animations*/
+
+
+
+/*components*/
+
+
+
+
+
+
+
+
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor:not-allowed
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.hide-scrollbar {
+  scrollbar-width: 0
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4e8da6ab;
+  border-radius: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar {
+  scrollbar-width: 5px;
+  scrollbar-track-color: transparent;
+  scrollbar-color: #4e8da6ab;
+}
